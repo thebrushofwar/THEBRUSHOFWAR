@@ -1,0 +1,313 @@
+﻿body {
+    background-image:url('images/Background.jpg');
+    background-repeat:no-repeat;
+	padding: 0;
+    margin: auto;
+	background-position:center;
+	width:1200px;
+	height:1600px;
+	text-align:center;
+}
+
+#page { 
+     width:1200px;
+     height:1600px;
+     margin:auto;
+     position:absolute;
+}
+
+.header {
+	width:1080px;
+	height:272px;
+	margin: 50px 0 0 60px;
+	float:left;
+}
+
+.button1 {
+	background-image:url('images/Button1.gif');
+	width:186px;
+	height:46px;
+	position:absolute;
+	top:230px;
+	left:125px;
+	float:left;
+	z-index:auto;
+	text-align:center;
+
+}
+
+.button2 {
+	background-image:url('images/Button1.gif');
+	width:186px;
+	height:46px;
+	position:absolute;
+	top:230px;
+	left:361px;
+	float:left;
+	z-index:auto;
+	text-align:center;
+
+}
+
+.button3 {
+	background-image:url('images/Button1.gif');
+	width:186px;
+	height:46px;
+	position:absolute;
+	top:230px;
+	left:653px;
+	float:left;
+	z-index:auto;
+	text-align:center;
+	}
+
+.button4 {
+	background-image:url('images/Button1.gif');
+	width:186px;
+	height:46px;
+	position:absolute;
+	top:230px;
+	left:889px;
+	float:left;
+	z-index:auto;
+	text-align:center;
+}
+
+div a {
+	text-decoration:none;
+	font-family:"Mechfire";
+	font-size:16pt;
+	color:black;
+	line-height:46px;
+	}
+	
+.welcome {
+    font-family:Calson Antique;
+    font-size:28pt;
+    color:#F3F3F3;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    float:left;
+    margin-left:140px;
+    }
+    
+p {
+	text-align:center;
+	font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h2 {
+    font-family:Mechfire;
+	font-size:26pt;
+    color:#FF9900;
+	font-weight:bolder;
+	}
+	
+h3 {
+	font-family:Mechfire;
+	font-size:24pt;
+	text-align:center;
+}
+
+h4 {
+	font-family:Mechfire;
+	font-size:20pt;
+	text-align:center;
+	color:#FF9900;
+}
+
+	
+.LatestJob {
+	position:absolute;
+	left:440px;
+	text-align:center;
+	margin-top:0;
+	text-shadow:1px 1px black;
+	top:390px;
+}
+
+#GalUltraTitle {
+	text-shadow:-1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;    
+	color:#0066FF;
+    opacity:1;
+    z-index:3;
+    text-align:center;
+}
+
+#latestJobName {
+	text-shadow:-1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;    
+	color:#0066FF;
+    opacity:1;
+    z-index:3;
+    text-align:center;
+}
+
+#angelosname {
+	text-shadow:-1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;    
+    color:#FF0000;
+    z-index:3;
+    text-align:center;
+}
+
+
+#divLinks {
+	position:absolute;
+	top:465px;
+	left:125px;
+	width:200px;
+	height:500px;
+	float:left;
+	border-style:solid;
+	border-color:#FF9900;	
+	border-width:thin;
+	box-shadow:10px 10px grey;
+}
+
+#sidelinks {
+	width:181px;
+	height:67px;
+	vertical-align:middle;
+	position:relative;
+	left:10px;
+	float:left;
+}
+
+#divMainInfoContent {
+	width:730px;
+	height:700px;
+    position:absolute;
+	top:465px;
+	left:350px;
+	float:right;
+	border-style:solid;
+	border-color:#FF9900;	
+	border-width:thin;
+	box-shadow:10px 10px grey;
+}
+
+
+.img1 {
+	height:300px;
+	position:relative;
+	float:left;
+	left:20px;
+	border-color:orange;
+	border:thin;
+	border-style:solid;
+	opacity:1;
+	vertical-align:middle;
+}
+
+.img2 {
+	height:300px;
+	position:relative;
+	float:right;
+	right:20px;
+	top:60px;
+	border-color:orange;
+	border:thin;
+	border-style:solid;
+	opacity:1;
+	vertical-align:middle;
+}
+
+.imggallerysmall {
+	height:150px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#pMainInfo {
+	font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	position:relative;
+	font-size:12pt;
+	float:left;
+	max-width:435px;
+	text-align:left;
+	left:35px;
+}
+
+#pMainInfo2 {
+	font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	position:relative;
+	float:left;
+	max-width:435px;
+	text-align:justify;
+	left:20px;
+}
+
+
+#galleryDivLinks {
+	background-image:url('images/gallerylist.gif');
+	position:relative;
+	top:500px;
+	left:125px;
+	width:200px;
+	height:505px;
+	float:left;
+	background-color:#EFEFEF;	
+	background-repeat:no-repeat;
+	border-style:solid;
+	border-color:#FF9900;	
+	border-width:thin;
+	box-shadow:10px 10px grey;
+
+}
+
+#galleryDivMainInfo {
+	width:730px;
+	height:1000px;
+	position:absolute;
+	top:465px;
+	left:350px;
+	float:right;
+	border-style:solid;
+	border-color:#FF9900;	
+	border-width:thin;
+	box-shadow:10px 10px grey;
+	text-align:center;
+}
+
+
+#partners {
+	position:relative;
+	right:307px;
+	top:-90px;
+	float:left;
+}
+
+.sidelinkfont {
+	font-family:Georgia;
+	font-size:16pt;
+	color:black;
+	margin-top:-20%;
+}
+
+#gallerytext {
+    font-family:Mechfire;
+	font-size:26pt;
+    color:#FF9900;
+	font-weight:bolder;
+	margin-left:170px;
+	}
+
+#angelospic {
+    position:relative;
+	left:25px;
+	float:left;
+}
+
+#angelosquote {
+	position:relative;
+	left:25px;
+	top:25px;
+	float:left;	
+}
+
+.galleryfototext {
+	margin-top:-10px;
+	font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-size:16pt;
+}
+
